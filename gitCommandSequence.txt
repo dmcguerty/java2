@@ -7,7 +7,7 @@ Invoke git client.
 
 $ gitk
 
-
+modified again
 ****
 Good Youtube
 https://www.youtube.com/watch?v=xuB1Id2Wxak
@@ -39,7 +39,8 @@ $ git config --global user.email "dmcxxxxx@xxxx"
 $ git config --global user.name "dmcxxx"
 $ git add step1.swift (adding this to remote repository)
 $ git commit -m "testing"
-
+$ git add -A  (adds all the files into the index)
+$ git commit -a -m "adding all files" (commits all the indexed files)
 
 $ git log --graph --full-history --all --color
 
