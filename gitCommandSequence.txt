@@ -9,7 +9,7 @@ $ gitk
 
 modified again
 ****
-Good Youtube
+Good Youtube  [Edureka]
 https://www.youtube.com/watch?v=xuB1Id2Wxak
 
 $ git init project1  (initialize an empty Git repository in /Users/deomo/Scrath/project1/.git/
@@ -41,6 +41,16 @@ $ git add step1.swift (adding this to remote repository)
 $ git commit -m "testing"
 $ git add -A  (adds all the files into the index)
 $ git commit -a -m "adding all files" (commits all the indexed files)
+$ git log
+
+Branching.
+$ git branch branch1
+$ git checkout branch1
+$ git checkout master
+$ ls (you wont see any branch1 file)
+$ git merge branch1  (you want to have master be the destination)
+$ (branch1 still exists, but is merged into master)
+
 
 $ git log --graph --full-history --all --color
 

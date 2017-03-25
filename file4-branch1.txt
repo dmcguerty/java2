@@ -1,1 +1,2 @@
 AnotherTextFile
+a change
