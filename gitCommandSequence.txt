@@ -50,6 +50,11 @@ $ git checkout master
 $ ls (you wont see any branch1 file)
 $ git merge branch1  (you want to have master be the destination)
 $ (branch1 still exists, but is merged into master)
+$ git commit -a -m "modifyiing file that is already changed" (includes the add command)
+$ 
+git pull = git fetch + git merge
+rebasing is another kind of merging.
+rebasing gives you less branches and keeps a cleaner environment
 
 
 $ git log --graph --full-history --all --color
